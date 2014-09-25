@@ -40,6 +40,7 @@ start:
 </pre>
 
 In the <code>kernel.asm</code> we make a call to <code>kmain</code>. So our execution starts at <code>kmain()</code> in the main C file <code>kernel.c</code>.
+
 <pre>
 /*
  *
@@ -101,9 +102,11 @@ unsigned int k_printf(char *message, unsigned int line)
 	return(1);
 }
 </pre>
+
 All our kernel will do is clear the screen and write to it the string "Hello, world! Welcome to my kernel."
 
 Now the <code>linker.ld</code> script.
+
 <pre>
 /*
  * link.ld
