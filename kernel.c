@@ -1,6 +1,6 @@
 /*
  *
- * kernel.c - version 1.0.2
+ * kernel.c - version 0.0.1
  * 
  */
 
