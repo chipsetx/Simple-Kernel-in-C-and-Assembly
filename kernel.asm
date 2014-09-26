@@ -1,5 +1,5 @@
 ;; kernel.asm
-;; version 1.0.1
+;; version 0.0.1
 
 bits 32		;nasm directive
 section .text
