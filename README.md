@@ -31,11 +31,11 @@ section .text
 	dd - (0x1BADB002 + 0x00)	;checksum. m+f+c should be zero
 
 global start
-extern kmain	;kmain is defined in the c file
+extern k_main	;kmain is defined in the c file
 
 start:
 	cli	;block interrupts
-	call kmain
+	call k_main
 	hlt	;halt the CPU
 </pre>
 
